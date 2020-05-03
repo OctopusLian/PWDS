@@ -25,6 +25,7 @@ int Sequential_Search(int *a,int n,int key)
 	}
 	return 0;
 }
+
 /* 有哨兵顺序查找 */
 int Sequential_Search2(int *a,int n,int key)
 {
@@ -38,7 +39,7 @@ int Sequential_Search2(int *a,int n,int key)
 	return i;
 }
 
-/* 折半查找 */
+/* 折半查找 / 二分查找 */
 int Binary_Search(int *a,int n,int key)
 {
 	int low,high,mid;
@@ -114,11 +115,6 @@ int Fibonacci_Search(int *a,int n,int key)
 	}
 	return 0;
 }
-
-
-
-
-  
 
 int main(void)
 {    

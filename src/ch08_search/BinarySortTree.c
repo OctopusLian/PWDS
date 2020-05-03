@@ -125,6 +125,6 @@ int main(void)
 	}
 	DeleteBST(&T,93);
 	DeleteBST(&T,47);
-    printf("本样例建议断点跟踪查看二叉排序树结构");
+    printf("本样例建议断点跟踪查看二叉排序树结构\n");
 	return 0;
 }
